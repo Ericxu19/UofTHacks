@@ -29,11 +29,11 @@ def root():
                    datetime.datetime(2018, 1, 3, 11, 0, 0),
                    ]
 
-    return render_template('website.html', times=dummy_times, hello = hello())
+    return render_template('website.html', times=dummy_times)
 
-@app.route('/')
-def hello():
-    return "hihihohehehehe"
+@app.route('/Bahen')
+def Bahen():
+    return render_template("index.html")
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
