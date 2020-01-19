@@ -24,7 +24,8 @@
    * Dummy devices (replace them with your own or something else entirely!)
    */
 .heading-background{
-    background: blue;
+    background-image: url("https://etc.usf.edu/clipart/3700/3760/tronto_1_md.gif");
+    background-size: cover;
 }
 .responsive {
     width: 100%;
