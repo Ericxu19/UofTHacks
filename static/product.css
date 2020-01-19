@@ -10,6 +10,7 @@
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
+
   }
   .site-header a {
     color: #999;
@@ -24,18 +25,21 @@
    * Dummy devices (replace them with your own or something else entirely!)
    */
 .heading-background{
-    background-image: url("https://etc.usf.edu/clipart/3700/3760/tronto_1_md.gif");
+    background-image: url("https://images.squarespace-cdn.com/content/547d758ae4b0bc118f252be2/1576699918841-0JCLP3SF7OWRKXPW32YF/digitalfingerprint.jpg?format=1500w&content-type=image%2Fjpeg");
     background-size: cover;
+    font-size: larger;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000;
+
 }
+.p{
+    font-family: DejaVu Sans Mono, monospace;
+}
+
 .responsive {
     width: 100%;
     height: auto;
   }
-
-#Myhal {
-  background-image: url('https://www.design-engineering.com/wp-content/uploads/2018/08/Foyer_credit-Daniel-Ehrenworth.jpg');
-  background-size: auto;
-} 
   
   
   /*
