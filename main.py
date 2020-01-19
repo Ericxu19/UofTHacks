@@ -33,7 +33,7 @@ def root():
 
 @app.route('/Bahen')
 def Bahen():
-    return render_template("index.html")
+    return render_template("bahen.html")
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
