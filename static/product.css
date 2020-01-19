@@ -23,12 +23,13 @@
   /*
    * Dummy devices (replace them with your own or something else entirely!)
    */
-  
- .heading-background{
-      background-image: url("https://uaem.org/cms/assets/uploads/2017/06/UofT-img-e1416105054815-560x200.jpg");
-      background-size: cover;
-      
- }
+.heading-background{
+    background: blue;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 
 #Myhal {
   background-image: url('https://www.design-engineering.com/wp-content/uploads/2018/08/Foyer_credit-Daniel-Ehrenworth.jpg');
