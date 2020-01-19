@@ -25,12 +25,15 @@
    */
   
  .heading-background{
-      background-image: url("https://i.cbc.ca/1.3845419.1478799518!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/university-college-building.jpg");
+      background-image: url("https://uaem.org/cms/assets/uploads/2017/06/UofT-img-e1416105054815-560x200.jpg");
       background-size: cover;
       
  }
 
- 
+#Myhal {
+  background-image: url('https://www.design-engineering.com/wp-content/uploads/2018/08/Foyer_credit-Daniel-Ehrenworth.jpg');
+  background-size: auto;
+} 
   
   
   /*
