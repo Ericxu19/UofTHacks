@@ -35,6 +35,11 @@ def root():
 def Bahen():
     return render_template("bahen.html")
 
+@app.route('/Myhal')
+def Myhal():
+    return render_template("myhal.html")
+
+    
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
     # Engine, a webserver process such as Gunicorn will serve the app. This
